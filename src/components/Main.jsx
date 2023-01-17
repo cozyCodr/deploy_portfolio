@@ -4,10 +4,13 @@ import {FaTwitter, FaGithub, FaInstagram, FaLinkedinIn} from "react-icons/fa"
 
 const Main = () => {
   return (
-    <div id="main"className='bg-gradient-to-r from-indigo-500 to-blue-500'>
-        <img className="md:h-screen mx-auto" src="/bg.png" />
+    <div id="main"className=''>
+        <div className="md:h-screen md:mx-auto flex justify-start sm:absolute relative md:left-0 -left-[250px]">
+            <img className="md:h-screen" md:mx-auto src="/bg.png" />
+        </div>
+        
         <div className="w-full h-screen absolute top-0 left-0 bg-white/60">
-            <div className='flex flex-col justify-center items-center h-screen'>
+            <div className='flex flex-col justify-center items-end h-screen'>
                 <h1 className="text-lg font-black">Im Bright Londa</h1>
                 <h2 className='text-lg font-black'> 
                     <TypeAnimation
