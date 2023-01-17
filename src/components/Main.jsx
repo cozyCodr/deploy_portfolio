@@ -5,7 +5,7 @@ import {FaTwitter, FaGithub, FaInstagram, FaLinkedinIn} from "react-icons/fa"
 const Main = () => {
   return (
     <div id="main"className=''>
-        <div className="md:h-screen md:mx-auto mt-[7rem] flex justify-center sm:absolute relative md:left-0 -left-[200px]">
+        <div className="md:h-screen md:mx-auto mt-[7rem] flex justify-center sm:absolute relative md:left-0 -left-[50%]">
             <img className="md:h-screen justify-center" md:mx-auto src="/bg.png" />
         </div>
         
