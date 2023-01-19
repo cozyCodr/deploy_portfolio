@@ -56,7 +56,7 @@ const Main = () => {
                 }
                     
                 </h2>
-                <div className="flex h-[20%] md:h-auto md:items-end md:mt-5 mt-[6rem]">
+                <div className="flex h-[20%] md:h-auto md:items-end md:mt-5 mt-[1rem]">
                     <a href="https://twitter.com/babaspace_" className='m-2' target="_blank">
                         <FaTwitter size={20} color="#1DA1F2" className='cursor-pointer' />
                     </a>
