@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap");
+
+.homeText {
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.homeImage {
+  width: 100%;
+  background-image: url("assets/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 40rem 40rem;
+  background-position: 25% bottom;
+}
+
+@media screen and (max-width: 575px) {
+  .homeImage {
+    background: none;
+    height: 65vh;
+  }
+}
