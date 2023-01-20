@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <SideNav />
       <Main className="" />
-      <div className="h-[30rem] w-full z-1000 bg-slate-700">
+      <div className="nextPage h-[30rem] w-full z-1000 bg-slate-700">
 
       </div>
       <div className="h-[30rem] w-full z-1000 bg-white">
