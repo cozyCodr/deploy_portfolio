@@ -24,7 +24,6 @@
 }
 
 .mobileImg {
-  z-index: 20;
   position: absolute;
   bottom: 0;
   left: -50%;
