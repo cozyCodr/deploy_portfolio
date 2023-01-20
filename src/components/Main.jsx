@@ -6,9 +6,11 @@ const Main = () => {
   console.log(window.innerWidth);
   return (
     <div id="main" className="w-full">
-      <div className="homeImage h-screen md:mt-0  flex justify-center   ">
+      <div className="homeImage md:mt-0  flex justify-center   ">
         {window.innerWidth < 575 ? (
-          <img className="mobileImg" src="bg.png" />
+          <div className="mobileImgContainer">
+            <img className="mobileImage" src="bg.png" />
+          </div>
         ) : (
           ""
         )}
