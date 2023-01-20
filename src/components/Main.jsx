@@ -8,9 +8,7 @@ const Main = () => {
     <div id="main" className="w-full">
       <div className="homeImage md:h-screen h-screen md:mt-0  flex justify-center   ">
         {window.innerWidth < 575 ? (
-          <div className="mobileImg">
-            <img src="/bg.png" />
-          </div>
+          <img className="mobileImg" src="bg.png" />
         ) : (
           ""
         )}
