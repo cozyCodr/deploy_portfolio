@@ -21,20 +21,27 @@
 @media screen and (max-width: 575px) {
   .homeImage {
     background: none;
+    height: 100%;
+  }
+
+  #main {
+    height: 100vh;
   }
 }
 
 .mobileImgContainer {
+  position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
 }
 
 .mobileImage {
   z-index: 20;
   width: 25rem;
-  height: 25rem;
-  position: absolute;
-  bottom: 0;
+  height: auto;
+  position: relative;
   left: -50%;
 }
 
