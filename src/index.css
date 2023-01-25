@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth !important;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap");
 
 .homeText {
@@ -48,4 +52,3 @@
 .nextPage {
   z-index: 30;
 }
- 
