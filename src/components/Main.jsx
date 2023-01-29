@@ -35,7 +35,7 @@ const Main = () => {
                 wrapper="div"
                 cursor={true}
                 repeat={Infinity}
-                style={{ fontSize: "3.5rem", color: "#171515" }}
+                style={{ fontSize: "3.2rem", color: "#171515" }}
               />
             ) : (
               <TypeAnimation
