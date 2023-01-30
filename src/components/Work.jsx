@@ -27,7 +27,10 @@ const data = [
 
 const Work = () => {
   return (
-    <div id="work" className=" m-auto md:pl-[10rem] p-20  py-16 bg-[#001b5e]">
+    <div
+      id="work"
+      className=" m-auto md:pl-[10rem] md:p-20 p:2 py-16 bg-[#001b5e]"
+    >
       <h1 className="text-4xl font-bold pb-5 text-white">Experience</h1>
       {data.map((item, idx) => (
         <WorkItem
