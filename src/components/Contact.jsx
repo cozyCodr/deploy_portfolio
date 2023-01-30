@@ -2,15 +2,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div
-      id="contact"
-      className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-[#001b5e]"
-    >
+    <div id="contact" className="w-full m-auto md:pl-20 p-4 py-16 bg-[#001b5e]">
       <h1 className="py-4 text-4xl font-bold text-center text-white">
         Contact
       </h1>
       <form
-        action=""
+        action="https://getform.io/f/a1dc59e8-b586-4997-9bb5-28c283330a9a"
         method="POST"
         encType="multipart/form-data"
         className="flex flex-col items-center md:w-2/4 w-full rounded-md mx-auto"
