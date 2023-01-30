@@ -10,7 +10,7 @@ const Contact = () => {
         action="https://getform.io/f/a1dc59e8-b586-4997-9bb5-28c283330a9a"
         method="POST"
         encType="multipart/form-data"
-        className="flex flex-col items-center md:w-96 w-full rounded-md mx-auto"
+        className="flex flex-col items-center md:w-96 w-full mx-auto"
       >
         <div className="grid md:grid-cols-2 gap-4 py-2 w-full">
           <div className="flex flex-col w-full">

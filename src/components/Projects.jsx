@@ -19,10 +19,9 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-        cupiditate harum numquam dignissimos aut deleniti repellendus beatae
-        fuga sapiente hic, pariatur fugit accusantium delectus nesciunt! Nisi,
-        maxime. Quibusdam, recusandae. Ullam.
+        The following projects utilize frontend and backend technologies which
+        include: JavaScript, React, Typescript, NextJs, Java, Flask, Postgres
+        and More
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem image={bhelperImg} title="Bipolar Helper Site" />
