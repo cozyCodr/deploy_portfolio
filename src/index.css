@@ -32,8 +32,8 @@
   background-image: url("assets/bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 40rem 40rem;
-  background-position: 25% bottom;
+  background-size: 32rem 32rem;
+  background-position: 20% bottom;
 }
 
 @media screen and (max-width: 575px) {
