@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-4 py-2 w-full">
           <div className="flex flex-col w-full">
             <input
-              className="rounded-xl pl-3 pt-1 pb-1 text-sm outline-none flex mx-2 md:mx-0 bg-slate-300"
+              className="border-b-orange-500 border-b-2 pt-1 pb-1 text-sm outline-none flex mx-2 md:mx-0 bg-transparent"
               type="text"
               name="name"
               placeholder="Full Name"
@@ -23,7 +23,7 @@ const Contact = () => {
           </div>
           <div className="flex flex-col">
             <input
-              className="rounded-xl pl-3 pt-1 pb-1  text-sm outline-none flex mx-2 md:mx-0 bg-slate-300"
+              className="border-b-orange-500 border-b-2 pt-1 pb-1 text-sm outline-none flex mx-2 md:mx-0 bg-transparent"
               type="text"
               name="phone"
               placeholder="Phone"
@@ -32,7 +32,7 @@ const Contact = () => {
         </div>
         <div className="flex flex-col w-full ">
           <input
-            className="rounded-xl pl-3 pt-1 pb-1  text-sm outline-none flex mx-2 md:mx-0 bg-slate-300"
+            className="border-b-orange-500 border-b-2 pt-1 pb-1 text-sm outline-none flex mx-2 md:mx-0 bg-transparent"
             type="email"
             name="email"
             placeholder="Email"
@@ -40,13 +40,13 @@ const Contact = () => {
         </div>
         <div className="flex flex-col w-full mt-2">
           <textarea
-            className="rounded-2xl pl-3 pt-1 pb-1 text-sm outline-none flex mx-2 md:mx-0 bg-slate-300"
+            className="border-b-orange-500 border-b-2 pt-1 pb-1 text-sm outline-none  flex mx-2 md:mx-0 bg-transparent"
             rows="5"
             name="message"
             placeholder="Your Message"
           ></textarea>
         </div>
-        <button className="bg-white text-[#001b5e] font-semibold text-sm rounded-lg mt-4 w-2/4 p-1 ">
+        <button className="bg-orange-500 text-[#001b5e] font-semibold text-sm rounded-sm mt-4 w-full p-2 ">
           Send Message
         </button>
       </form>
