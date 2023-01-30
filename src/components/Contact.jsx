@@ -3,60 +3,50 @@ import React from "react";
 const Contact = () => {
   return (
     <div id="contact" className="w-full m-auto md:pl-20 p-4 py-16 bg-[#001b5e]">
-      <h1 className="py-4 text-4xl font-bold text-center text-white">
-        Contact
+      <h1 className="py-4 text-xl font-bold text-center text-white">
+        Leave me a Message
       </h1>
       <form
         action="https://getform.io/f/a1dc59e8-b586-4997-9bb5-28c283330a9a"
         method="POST"
         encType="multipart/form-data"
-        className="flex flex-col items-center md:w-2/4 w-full rounded-md mx-auto"
+        className="flex flex-col items-center md:w-96 w-full rounded-md mx-auto"
       >
         <div className="grid md:grid-cols-2 gap-4 py-2 w-full">
           <div className="flex flex-col w-full">
-            <label className="uppercase text-white text-sm py-2">Name</label>
             <input
-              className="border-2 rounded-lg p-2 flex bg-slate-300"
+              className="rounded-xl pl-3 pt-1 pb-1 text-sm outline-none flex mx-2 md:mx-0 bg-slate-300"
               type="text"
               name="name"
+              placeholder="Full Name"
             />
           </div>
           <div className="flex flex-col">
-            <label className="uppercase text-white text-sm py-2">
-              Phone Number
-            </label>
             <input
-              className="border-2 rounded-lg p-2 flex bg-slate-300"
+              className="rounded-xl pl-3 pt-1 pb-1  text-sm outline-none flex mx-2 md:mx-0 bg-slate-300"
               type="text"
               name="phone"
+              placeholder="Phone"
             />
           </div>
         </div>
         <div className="flex flex-col w-full ">
-          <label className="uppercase text-white text-sm py-1">Email</label>
           <input
-            className="border-2 rounded-lg p-2 flex bg-slate-300"
+            className="rounded-xl pl-3 pt-1 pb-1  text-sm outline-none flex mx-2 md:mx-0 bg-slate-300"
             type="email"
             name="email"
+            placeholder="Email"
           />
         </div>
-        <div className="flex flex-col w-full ">
-          <label className="uppercase text-white text-sm py-2">Subject</label>
-          <input
-            className="border-2 rounded-lg p-2 flex bg-slate-300"
-            type="text"
-            name="subject"
-          />
-        </div>
-        <div className="flex flex-col w-full ">
-          <label className="uppercase text-white text-sm py-2">Message</label>
+        <div className="flex flex-col w-full mt-2">
           <textarea
-            className="border-2 rounded-lg p-2 flex bg-slate-300"
+            className="rounded-2xl pl-3 pt-1 pb-1 text-sm outline-none flex mx-2 md:mx-0 bg-slate-300"
             rows="5"
             name="message"
+            placeholder="Your Message"
           ></textarea>
         </div>
-        <button className="bg-white text-[#001b5e] rounded-lg mt-4 w-full p-4">
+        <button className="bg-white text-[#001b5e] font-semibold text-sm rounded-lg mt-4 w-2/4 p-1 ">
           Send Message
         </button>
       </form>
