@@ -3,7 +3,14 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
-    year: 2022,
+    year: "Feb 2023 - Present",
+    title: "Fullstack Engineer | InterWebb",
+    duration: "",
+    details:
+      "This role encompasses building and securing APIs, configuring deployments, managing databases, setting up domain names and SSL, collaborating with frontend teams, documenting APIs, and taking ownership of backend projects. It includes configuring deployment strategies, such as CI/CD pipelines and cloud platforms, ensures efficient app and service deployment. Collaboration with frontend teams enables seamless integration and effective communication between components. It also involves documenting APIs with comprehensive information and keeping the documentation up to date is essential."
+  },
+  {
+    year: "Sept 2022 - Jan 2023",
     title: "Fullstack Engineer | InterWebb",
     duration: "5 months",
     details:
