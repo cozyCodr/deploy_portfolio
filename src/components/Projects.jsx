@@ -1,17 +1,14 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import bhelperImg from "../assets/bhelper.jpg";
-import labinvImg from "../assets/labinv.jpg";
-import webInvImg from "../assets/webinv.jpg";
+import {
+  bhelperImg,
+  labinvImg,
+  calcImg,
+  twitterImg,
+  emechImg} from "../assets"
 
 const Projects = () => {
-  const projects = [
-    {
-      img: bhelperImg,
-      languages: "Springboot, React, Bootstrap",
-      title: "Bipolar Helper App",
-    },
-  ];
+  
 
   return (
     <div id="projects" className="max-w-[1080px] m-auto md:pl-20 p-8 py-16">
@@ -24,10 +21,36 @@ const Projects = () => {
         and More
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem image={bhelperImg} title="Bipolar Helper Site" />
-        <ProjectItem image={bhelperImg} title="Bipolar Helper Site" />
-        <ProjectItem image={labinvImg} title="Lab Inventory management App" />
-        <ProjectItem image={labinvImg} title="Lab Inventory management App" />
+        <ProjectItem 
+          image={bhelperImg} 
+          title="Bipolar Helper Site" 
+          hostedLink="#"
+          githubLink="https://github.com/cozyCodr/bapp"
+        />
+        <ProjectItem 
+          image={twitterImg} 
+          title="Twitter Clone" 
+          hostedLink="https://tweetrr.netlify.app/"
+          githubLink="https://github.com/cozyCodr/twitterclone"
+        />
+        <ProjectItem 
+          image={labinvImg} 
+          title="Lab Inventory Managemenent System" 
+          hostedLink="#"
+          githubLink="https://github.com/cozyCodr/Lab-Inventory-Management-System"
+        />
+        <ProjectItem 
+          image={emechImg} 
+          title="E mechanic Website" 
+          hostedLink="https://e-mech.netlify.app"
+          githubLink="#"
+        />
+        <ProjectItem 
+          image={calcImg} 
+          title="Simple Calculator" 
+          hostedLink="https://simplecalc-cc.netlify.app/"
+          githubLink="https://github.com/cozyCodr/simple-calculator"
+        />
       </div>
     </div>
   );
